@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // الزر - عرض عدة رسائل بالتناوب
     public void montrerSalutations(View view) {
         String message = "";
 
@@ -58,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
         textView.setText(message);
 
-        // الانتقال إلى الرسالة التالية
         messageIndex++;
 
         if (messageIndex > 4) {
